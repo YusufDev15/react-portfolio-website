@@ -4,7 +4,7 @@ import './contact.css'
 
 function Contact(props) {
   return (
-    <div>Contact</div>
+    <section id='contact'>Contact</section>
   )
 }
 

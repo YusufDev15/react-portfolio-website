@@ -14,7 +14,7 @@ function Header() {
         <CTA />
         <HeaderSocials />
 
-        <div className="User">
+        <div className="user">
           <img src="{User}" alt="User" />
         </div>
 
