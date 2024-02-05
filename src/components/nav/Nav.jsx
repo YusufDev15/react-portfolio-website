@@ -1,50 +1,90 @@
-import React from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 import { FaHome, FaUser, FaBook } from "react-icons/fa";
 import { MdContactMail } from "react-icons/md";
 import { BsFiles } from "react-icons/bs";
-import "../nav/nav.css";
+import "./nav.css";
 
 function Nav() {
   const [activeNav, setActiveNav] = useState("/");
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 100;
+      const starts = document.querySelectorAll(".start");
+
+      starts.forEach((start) => {
+        const startTop = start.offsetTop;
+        const startHeight = start.clientHeight;
+
+        if (
+          scrollPosition >= startTop &&
+          scrollPosition <= startTop + startHeight
+        ) {
+          setActiveNav(`#${start.id}`);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav >
-      <a
-        href="/"
-        onClick={() => setActiveNav("/")}
-        className={activeNav === "/" ? "active" : ""}
+    <nav>
+      <Link
+        to="header"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+        className={activeNav === "#header" ? "active" : ""}
       >
         <FaHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
+      </Link>
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
         className={activeNav === "#about" ? "active" : ""}
       >
         <FaUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
+      </Link>
+      <Link
+        to="experience"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
         className={activeNav === "#experience" ? "active" : ""}
       >
         <FaBook />
-      </a>
-      <a
-        href="#portfolio"
-        onClick={() => setActiveNav("#portfolio")}
+      </Link>
+      <Link
+        to="portfolio"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
-      <BsFiles />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
+        <BsFiles />
+      </Link>
+      <Link
+        to="contact"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <MdContactMail />
-      </a>
+      </Link>
     </nav>
   );
 }
