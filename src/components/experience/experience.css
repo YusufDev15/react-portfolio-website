@@ -1,6 +1,6 @@
 .experience-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
@@ -26,12 +26,13 @@
 
 .experience-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   row-gap: 2rem;
 }
 
 .experience-details {
   display: flex;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -42,10 +43,6 @@
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
-  .experience-container {
-    grid-template-columns: 1fr;
-  }
-
   .experience-container > div {
     width: 80%;
     padding: 2rem;
@@ -53,6 +50,7 @@
   }
 
   .experience-content {
+    grid-template-columns: 1fr 1fr;
     padding: 1rem;
   }
 }

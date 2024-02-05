@@ -1,5 +1,5 @@
 import React from "react";
-import ME from "../../assets/me-about.jpg";
+import ME from "../../assets/IMG_2776.jpg";
 import { FaAward } from "react-icons/fa";
 import { VscFiles } from "react-icons/vsc";
 import "./about.css";

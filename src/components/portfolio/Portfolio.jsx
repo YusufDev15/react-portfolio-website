@@ -1,10 +1,10 @@
 import React from "react";
-import Image1 from "../../assets/screencapture-snapscreen-wallpaper-netlify-app-2024-02-04-14_04_17.jpg";
-import Image2 from "../../assets/cinepulse-github-io-1st-Project-2024-02-04-16_40_25.png";
-import Image3 from "../../assets/yusufdev15-github-io-Daily-Planner-App-2024-02-04-17_02_52.png";
-import Image4 from "../../assets/Password-Generator-2024-02-04-17_24_27.png";
-import Image5 from "../../assets/portfolio5.png";
-import Image6 from "../../assets/portfolio6.jpg";
+import Image1 from "../../assets/snapscreen-wallpaper-netlify-app.jpg";
+import Image2 from "../../assets/cinepulse.png";
+import Image3 from "../../assets/Weather-Dashboard.png";
+import Image4 from "../../assets/Daily-Planner-App.png";
+import Image5 from "../../assets/Password-Generator.png";
+import Image6 from "../../assets/Bootstrap-Portfolio.png";
 import "./portfolio.css";
 
 const data = [
@@ -28,34 +28,34 @@ const data = [
   {
     id: 3,
     image: Image3,
+    title: "Weather Dashboard",
+    github: "https://github.com/YusufDev15/Weather-Dashboard",
+    demo: "https://yusufdev15.github.io/Weather-Dashboard/",
+    alt: "A weather dashboard application that you can search the current and forecasted weather around the world",
+  },
+  {
+    id: 4,
+    image: Image4,
     title: "Daily Planner App",
     github: "https://github.com/YusufDev15/Daily-Planner-App",
     demo: "https://yusufdev15.github.io/Daily-Planner-App/",
     alt: "Week day scheduler for each specific day",
   },
   {
-    id: 4,
-    image: Image4,
+    id: 5,
+    image: Image5,
     title: "Password Generator",
     github: "https://github.com/YusufDev15/Password-Generator",
     demo: "https://yusufdev15.github.io/Password-Generator/",
     alt: "A web page with a password generator box",
   },
   {
-    id: 5,
-    image: Image5,
-    title: "Some kind of ",
-    github: "https://github.com",
-    demo: "https://www.codecademy.com/resources/blog/how-to-make-your-front-end-developer-portfolio-stand-out/",
-    alt: "Starry night sky reflected in the ocean and a single sailboat with mountains in the horizon",
-  },
-  {
     id: 6,
     image: Image6,
-    title: "Some kind of ",
-    github: "https://github.com",
-    demo: "https://www.codecademy.com/resources/blog/how-to-make-your-front-end-developer-portfolio-stand-out/",
-    alt: "Starry night sky reflected in the ocean and a single sailboat with mountains in the horizon",
+    title: "Bootstrap Portfolio",
+    github: "https://github.com/YusufDev15/Bootstrap-Portfolio",
+    demo: "https://yusufdev15.github.io/Bootstrap-Portfolio/",
+    alt: "First portfolio website done using bootstrap",
   },
 ];
 

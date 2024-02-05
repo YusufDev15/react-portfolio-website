@@ -51,53 +51,26 @@ function Experience() {
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>jQuery</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article href="" className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Node JS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article href="" className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>APIs</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
-
-        <div className="experience-backend">
-          <h3>Backend Development</h3>
-          <div className="experience-content">
-            <article href="" className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-              <div>
-                <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article href="" className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article href="" className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article href="" className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article href="" className="experience-details">
-              <BsPatchCheckFill className="experience-details-icon" />
-              <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
-        </div>
       </div>
     </section>
   );
