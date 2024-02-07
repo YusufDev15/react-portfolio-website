@@ -20,7 +20,7 @@ function HeaderSocials() {
       >
         <FaGithub />
       </a>
-      <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+      <a href="https://twitter.com/YusufDev15" target="_blank" rel="noopener noreferrer">
         <FaTwitter />
       </a>
     </div>

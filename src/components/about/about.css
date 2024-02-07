@@ -19,6 +19,7 @@
 }
 
 .about-me-image {
+  height: 130%;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
@@ -84,6 +85,14 @@
 
   .about-content p {
     margin: 1rem 0 1.5rem;
+  }
+
+  .about-me-image {
+    height: 110%;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
   }
 }
 

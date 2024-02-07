@@ -37,7 +37,7 @@ function Footer() {
           <FaInstagram />
         </a>
         <a
-          href="https://twitter.com"
+          href="https://twitter.com/YusufDev15"
           target="_blank"
           rel="noopener noreferrer"
         >
