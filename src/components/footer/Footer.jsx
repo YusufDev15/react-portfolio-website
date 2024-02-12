@@ -44,7 +44,7 @@ function Footer() {
           <FaXTwitter />
         </a>
         <a
-          href="https://linkedin.com/in/yusuf-a-90694a155"
+          href="https://www.linkedin.com/in/yusuf-a-90694a155/"
           target="_blank"
           rel="noopener noreferrer"
         >
