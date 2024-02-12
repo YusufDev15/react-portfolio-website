@@ -1,6 +1,6 @@
 
 # react-profile-website
-Developing an initial scaffoldng of my portfolio site from scratch using React.
+Developing my portfolio where i can present myself and my work.
 
 
 
@@ -28,9 +28,9 @@ Developing an initial scaffoldng of my portfolio site from scratch using React.
 2. React Js
 3. React Router
 4. Material Icons - Material UI - MUI
-5. Bootstrap
-6. Font Awesome
-7. google fonts
+5. Font Awesome
+6. google fonts
+7. node.js
 
 
 ## Credits
@@ -45,6 +45,10 @@ Developing an initial scaffoldng of my portfolio site from scratch using React.
 8. https://www.npmjs.com/package/inquirer#installation
 9. https://jestjs.io/
 
+
+## Deployment 
+
+[Deployed profile](https://yusuf-dev-portfolio.netlify.app/)
 
 
 ## License
