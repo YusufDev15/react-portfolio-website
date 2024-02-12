@@ -48,7 +48,7 @@ Developing my portfolio where i can present myself and my work.
 
 ## Deployment 
 
-[Deployed profile](https://yusuf-dev-portfolio.netlify.app/)
+My personal portfolio website: [Deployed profile](https://yusuf-dev-portfolio.netlify.app/)
 
 
 ## License
